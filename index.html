@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Grand Birthday Quest</title>
+    <style>
+        body {
+            font-family: 'Garamond', serif;
+            text-align: center;
+            background-image: url('https://www.transparenttextures.com/patterns/aged-paper.png'); /* Old parchment background */
+            background-color: #f4e4ba;
+            padding: 50px;
+        }
+        .container {
+            max-width: 700px;
+            margin: auto;
+            padding: 30px;
+            background: rgba(255, 255, 255, 0.8);
+            border-radius: 10px;
+            box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+            border: 2px solid #a67c52;
+        }
+        h1 {
+            color: #5a3825;
+            font-size: 28px;
+        }
+        p {
+            font-size: 18px;
+            color: #3d2b1f;
+            line-height: 1.6;
+        }
+        .button {
+            display: inline-block;
+            background: #5a3825;
+            color: white;
+            padding: 12px 24px;
+            font-size: 18px;
+            border-radius: 5px;
+            text-decoration: none;
+            cursor: pointer;
+            margin-top: 20px;
+        }
+        .button:hover {
+            background: #7d5234;
+        }
+        #hidden-message {
+            display: none;
+            margin-top: 20px;
+            font-size: 18px;
+            color: #5a3825;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>📜 The Grand Birthday Quest – Official Summons 📜</h1>
+        <p><em>By Royal Command of Her Highness, Princess Dooda of the Infinite QX Kingdom</em></p>
+
+        <p><strong>To the valiant Sir Khalid,</strong></p>
+
+        <p>At the stroke of midnight, a most fateful event has come to pass—the dawn of your <strong>21st year</strong>.  
+        With this great milestone, destiny calls upon thee to embark on a journey of courage, wisdom, and patience.  
+        But heed this warning, noble knight—great rewards do not come without great trials. </p>
+
+        <p>Should thee succeed, the kingdom shall bestow upon thee:</p>
+        <ul>
+            <li>🧥 <strong>A Royal Attire</strong>, fit for a knight of your stature</li>
+            <li>⚔️ <strong>An Enchanted Artifact</strong>, forged with purpose</li>
+            <li>🍷 <strong>A Sacred Elixir</strong>, rich and indulgent</li>
+            <li>🍽️ <strong>A Grand Feast</strong>, worthy of a champion</li>
+        </ul>
+
+        <p>Yet, these riches are not given freely. To earn them, thee must endure the <strong>Trial of Knowledge</strong>,  
+        the <strong>Trial of Strength</strong>, the <strong>Trial of Loyalty</strong>, and the <strong>Trial of Patience</strong>—each more daunting than the last.</p>
+
+        <p><strong>When shall these trials come? When shall thy rewards be granted?</strong>  
+        That remains <em>to be announced…</em></p>
+
+        <p>For now, prepare thyself. The first test may be upon thee sooner than thee dares to expect.</p>
+
+        <button class="button" onclick="showMessage()">🛡️ I Accept the Quest 🛡️</button>
+
+        <p id="hidden-message">"Very well, Sir Khalid. The trials shall begin in due time… Stay vigilant."</p>
+    </div>
+
+    <script>
+        function showMessage() {
+            document.getElementById('hidden-message').style.display = 'block';
+        }
+    </script>
+
+</body>
+</html>
